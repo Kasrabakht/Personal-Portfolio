@@ -36,7 +36,7 @@ import { cn } from "@/lib/utils.js";
         }, []);
 
         return (
-            <button onClick={() => setIsDarkMode(v => !v)} className={cn("fixed max-sm:hidden top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
+            <button onClick={() => setIsDarkMode(v => !v)} className={cn("fixed top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
                 "focus:outline-none") }>
                 {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
             </button>
