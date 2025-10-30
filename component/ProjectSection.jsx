@@ -20,6 +20,26 @@ const projects = [
         tags: ["React(Vite)", "Context API", "Node / Express", "REST", "MongoDB / Mongoose", "JS", "CSS"],
         githubUrl: "https://github.com/Kasrabakht/Personal-Financial-Tracker/tree/development"
 
+
+    },
+
+    {
+        id: 3,
+  title: "CalmVoice AI",
+  description:
+    "I built CalmVoice AI, a real-time web voice assistant that helps users manage stress through conversational AI. The app captures live microphone input in the browser, streams audio via WebSockets to a Node/Express backend, transcribes speech with Whisper, and analyzes emotional tone. It then generates context-aware, AI-driven responses using GPT models to guide users through relaxation and breathing exercises. The React frontend features dynamic audio visualization, smooth UI animations, and state-managed chat interaction.",
+  image: "/projects/CalmVoiceAI.png",
+  tags: [
+    "React (Vite)",
+    "Node / Express",
+    "WebSocket",
+    "OpenAI / Whisper",
+    "Real-Time AI",
+    "JS",
+    "CSS",
+  ],
+        githubUrl: "https://github.com/Kasrabakht/Personal-Financial-Tracker/tree/development"
+
     }
 ]
 

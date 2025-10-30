@@ -2,6 +2,7 @@ import { Mail } from "lucide-react"
 import { MapPin } from "lucide-react"
 import {cn } from '@/lib/utils'
 import { Send } from "lucide-react"
+import { Linkedin } from "lucide-react"
 
 export const ContactSection = () => {
  
@@ -34,6 +35,23 @@ export const ContactSection = () => {
                                         className="text-muted-foreground hover:text-primary transition-colors"
                                         target="_blank">
                                         kasrabakht20@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                            <div className="flex items-start space-x-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <Linkedin className="h-6 w-6 text-primary" />
+                                </div>
+                                <div>
+                                    <h4 className="font-medium">LinkedIn</h4>
+                                    <a
+                                        href="https://linkedin.com/in/kasra-bakht-876085258"
+                                        className="text-muted-foreground hover:text-primary transition-colors"
+                                        target="_blank" rel="noopener noreferrer">
+                                        linkedin.com/in/kasra-bakht-876085258
                                     </a>
                                 </div>
                             </div>
