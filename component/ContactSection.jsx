@@ -16,19 +16,19 @@ export const ContactSection = () => {
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
                     If you want to keep in touch</p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-2xl mx-auto">
+                <div className="grid grid-cols-1 gap-12 max-w-2xl mx-auto">
                     <div className="space-y-8">
                         <h3 className="text-2xl font-semibold mb-6 text-center">
                             {" "}
                             Contact Information
                         </h3>
 
-                        <div className="space-y-6 justify-center">
-                            <div className="flex items-start space-x-4">
+                        <div className="space-y-6 flex flex-col items-center">
+                            <div className="flex items-center space-x-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Mail className="h-6 w-6 text-primary" />
                                 </div>
-                                <div>
+                                <div className="text-center">
                                     <h4 className="font-medium">Email</h4>
                                     <a
                                         href="mailto:kasrabakht20@gmail.com"
@@ -41,11 +41,11 @@ export const ContactSection = () => {
 
 
 
-                            <div className="flex items-start space-x-4">
+                            <div className="flex items-center space-x-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Linkedin className="h-6 w-6 text-primary" />
                                 </div>
-                                <div>
+                                <div className="text-center">
                                     <h4 className="font-medium">LinkedIn</h4>
                                     <a
                                         href="https://linkedin.com/in/kasra-bakht-876085258"
@@ -58,11 +58,11 @@ export const ContactSection = () => {
 
 
 
-                            <div className="flex items-start space-x-4">
+                            <div className="flex items-center space-x-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <MapPin className="h-6 w-6 text-primary" />
                                 </div>
-                                <div>
+                                <div className="text-center">
                                     <h4 className="font-medium">Location</h4>
                                     <a
                                         className="text-muted-foreground hover:text-primary transition-colors">
